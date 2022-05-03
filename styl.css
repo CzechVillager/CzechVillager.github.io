@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	height: 80px;
+	display: block;
+	background: #2453A5;
+	position: fixed;
+}
+.header img{
+	width: 80px;
+	height: 80px;
+	display: block;
+	background: black;
+	position: fixed;
+}
+.inner_header{
+	width: 1000px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+	background-color: #FFF000;
+}
+.logo{
+	height: 100%;
+	display: table;
+	float: left;
+}
+.logo h1{
+	padding-left: 10px;
+	color: #2453A5;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Arial';
+	font-size: 50px;
+	font-weight: 200;
+}
+.logo h1 span{
+	font-weight: 800;
+}
+.navigation{
+	float: right;
+	height: 100%;
+}
+.navigation a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+}
+.navigation a li{
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	color: #2453A5;
+	font-family: 'Arial';
+	font-size: 16;
+}
+.text{
+	padding-left: 40px;
+	padding-top: 100px;
+	text-align: left;
+}
+.text h2{
+	padding-top: 15px;
+	padding-left: 5px;
+}
+.text p{
+	padding-top: 5px;
+	padding-left: 5px;
+}
+.text li{
+	padding-top: 5px;
+	padding-left: 5px;
+}
+.text img{
+	padding-top: 5px;
+	padding-left: 5px;
+}
+.vacation{
+	padding-top: 80px;
+	vertical-align: middle;
+	background: #30ADFD;
+}
+.ukoly{
+	float: left;
+	padding-left: 15px;
+	height: 100%;
+}
